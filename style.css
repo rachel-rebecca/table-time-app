@@ -1,0 +1,73 @@
+body{
+    margin: auto;
+    
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+    background: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#btnTherapy, #btnCasual {
+    width: 20%;
+    font-size: .75em;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+#programsTherapy, #programsCasual {
+    display: flex;
+    justify-content: center;
+}
+
+#programsCasual {
+    display: none;
+}
+
+
+/*
+* ~~~~~~~~~~~~~~~~~~TABLET VIEW~~~~~~~~~~~
+*/
+@media only-screen and (min-width: 480px) and (max-width: 768px) {
+    #btnTherapy, #btnCasual {
+        width: 10%;
+        font-size: .75em;
+    }
+
+
+}
+
+
+/*
+* ~~~~~~~~~~~~~~~~~~~~ DESKTOP VIEW~~~~~~~~~~~~~~~~~~~~~
+*/
+
+@media only-screen and (min-width: 769px) {
+    #btnTherapy, #btnCasual {
+        width: 10%;
+        font-size: .75em;
+    }
+
+}
+
+
+/*
+* ~~~~~~~~~~~~~~~~~~~~ LARGE DESKTOP VIEW~~~~~~~~~~~~~~~~~~~~~
+*/
+
+@media only-screen and (min-width: 1280px) {
+
+}
